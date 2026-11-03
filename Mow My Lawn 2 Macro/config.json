@@ -1,0 +1,298 @@
+{
+  "hotkeys": {
+    "toggle_start_pause": "f6",
+    "emergency_stop": "f7",
+    "toggle_overlay": "f8",
+    "force_mode_cycle": "f9",
+    "mark_house_door": "f10"
+  },
+  "general": {
+    "loop_fps": 20,
+    "auto_equip_slot": "1",
+    "equip_interval_sec": 8.0,
+    "auto_click_attack": true,
+    "click_interval_sec": 0.12,
+    "safe_click_screen_pos": [
+      0.26,
+      0.3
+    ],
+    "auto_adjust_camera_on_start": true,
+    "auto_adjust_camera_on_reset": true,
+    "camera_zoom_out_presses": 14,
+    "camera_pitch_drag_pixels": 240,
+    "jump_if_stuck_sec": 0.0,
+    "show_debug_window": true,
+    "item_attack_modes": {
+      "Custom / Equipped Tool": "hold",
+      "Hammer / Sword / Scythe": "spam_click",
+      "Bass Cleaver": "spam_click",
+      "Thunderclap": "spam_click",
+      "Lawnmower / Push Mower": "hold",
+      "Weedwacker / Trimmer": "hold",
+      "Chainsaw / Buzzsaw": "hold",
+      "Flamethrower / Laser / Vacuum": "hold",
+      "[BR] 72.&": "spam_click",
+      "[BR] Cefeat Alden's": "spam_click",
+      "[BL] >+": "spam_click",
+      "[BL] +": "spam_click",
+      "[BR] 75.&": "spam_click",
+      "[BR] 7\u53f7.": "spam_click"
+    },
+    "tool_attack_mode": "hold"
+  },
+  "regions": {
+    "note": "Normalized screen coordinates [x1, y1, x2, y2] from 0.0 to 1.0",
+    "top_boss_bar_roi": [
+      0.22,
+      0.01,
+      0.78,
+      0.19
+    ],
+    "play_area_roi": [
+      0.1,
+      0.18,
+      0.9,
+      0.88
+    ],
+    "player_center": [
+      0.5,
+      0.52
+    ]
+  },
+  "house_door_avoidance": {
+    "enabled": true,
+    "avoid_visual_house_and_door": true,
+    "repulsion_radius_px": 330,
+    "door_direction_bias": "up",
+    "forbidden_screen_zones": [
+      [
+        0.43,
+        0.06,
+        0.64,
+        0.3
+      ]
+    ],
+    "house_wood_brick_hsv_lower": [
+      5,
+      65,
+      45
+    ],
+    "house_wood_brick_hsv_upper": [
+      20,
+      225,
+      195
+    ],
+    "min_house_contour_area": 1800
+  },
+  "fence_avoidance": {
+    "enabled": true,
+    "repulsion_radius_px": 260,
+    "edge_grass_margin_threshold": 0.22,
+    "fence_wood_hsv_lower": [
+      6,
+      40,
+      45
+    ],
+    "fence_wood_hsv_upper": [
+      25,
+      220,
+      210
+    ],
+    "min_fence_contour_area": 650
+  },
+  "forcefield_detection": {
+    "enabled": true,
+    "avatar_radius_ratio": 0.095,
+    "blue_cyan_hsv_lower": [
+      80,
+      75,
+      145
+    ],
+    "blue_cyan_hsv_upper": [
+      140,
+      255,
+      255
+    ],
+    "shimmer_white_hsv_lower": [
+      0,
+      0,
+      215
+    ],
+    "shimmer_white_hsv_upper": [
+      180,
+      55,
+      255
+    ],
+    "min_forcefield_pixel_ratio": 0.065,
+    "min_cyan_pixel_ratio": 0.025
+  },
+  "mowing": {
+    "prefer_vision_grass": true,
+    "min_grass_contour_area": 300,
+    "never_stop_moving": true,
+    "sweep_leg_duration_sec": 2.1,
+    "sweep_shift_duration_sec": 1.0,
+    "vision_steer_influence": 0.6,
+    "patch_cooldown_sec": 5.0,
+    "patch_exclusion_radius_px": 210,
+    "max_time_on_single_target_sec": 0.9,
+    "fence_stuck_escape_sec": 1.8,
+    "fence_stuck_reset_character_sec": 6.0,
+    "allow_reset_character_on_hard_stuck": true,
+    "camera_zoomed_in_green_ratio_threshold": 0.14,
+    "patrol_pattern": "tight_center_sweep",
+    "grass_hsv_lower": [
+      32,
+      20,
+      45
+    ],
+    "grass_hsv_upper": [
+      96,
+      255,
+      235
+    ],
+    "mowed_lawn_hsv_lower": [
+      35,
+      30,
+      80
+    ],
+    "mowed_lawn_hsv_upper": [
+      75,
+      140,
+      200
+    ]
+  },
+  "progression_ocr": {
+    "enabled": true,
+    "scan_interval_sec": 1.1,
+    "bottom_left_hud_roi": [
+      0.0,
+      0.52,
+      0.42,
+      0.99
+    ],
+    "bottom_right_hud_roi": [
+      0.58,
+      0.52,
+      1.0,
+      0.99
+    ]
+  },
+  "drops_and_multipliers": {
+    "enabled": true,
+    "priority_over_mowing": true,
+    "collect_during_boss_if_safe": true,
+    "min_drop_area": 80,
+    "max_drop_area": 6500,
+    "chase_timeout_sec": 2.8,
+    "color_profiles": {
+      "gold_and_tokens": {
+        "hsv_lower": [
+          18,
+          155,
+          165
+        ],
+        "hsv_upper": [
+          32,
+          255,
+          255
+        ]
+      },
+      "grill_food_warm": {
+        "hsv_lower": [
+          6,
+          150,
+          140
+        ],
+        "hsv_upper": [
+          17,
+          255,
+          255
+        ]
+      },
+      "special_multiplier_orbs": {
+        "hsv_lower": [
+          135,
+          130,
+          160
+        ],
+        "hsv_upper": [
+          168,
+          255,
+          255
+        ]
+      }
+    }
+  },
+  "boss": {
+    "strategy": "tag_and_survive",
+    "tag_duration_sec": 3.5,
+    "max_boss_wait_sec": 120.0,
+    "boss_bar_missing_grace_sec": 3.5,
+    "dodge_telegraphs": true,
+    "dodge_duration_sec": 0.45,
+    "danger_radius_px": 340,
+    "safe_perimeter_Strafe": true,
+    "telegraph_red_hsv_lower1": [
+      0,
+      130,
+      140
+    ],
+    "telegraph_red_hsv_upper1": [
+      14,
+      255,
+      255
+    ],
+    "telegraph_red_hsv_lower2": [
+      165,
+      130,
+      140
+    ],
+    "telegraph_red_hsv_upper2": [
+      180,
+      255,
+      255
+    ],
+    "telegraph_orange_yellow_hsv_lower": [
+      15,
+      175,
+      185
+    ],
+    "telegraph_orange_yellow_hsv_upper": [
+      30,
+      255,
+      255
+    ],
+    "telegraph_purple_magic_hsv_lower": [
+      130,
+      135,
+      155
+    ],
+    "telegraph_purple_magic_hsv_upper": [
+      164,
+      255,
+      255
+    ],
+    "telegraph_white_shock_hsv_lower": [
+      0,
+      0,
+      232
+    ],
+    "telegraph_white_shock_hsv_upper": [
+      180,
+      35,
+      255
+    ],
+    "boss_ui_red_hsv_lower": [
+      0,
+      150,
+      130
+    ],
+    "boss_ui_red_hsv_upper": [
+      15,
+      255,
+      255
+    ],
+    "min_telegraph_area": 240
+  }
+}

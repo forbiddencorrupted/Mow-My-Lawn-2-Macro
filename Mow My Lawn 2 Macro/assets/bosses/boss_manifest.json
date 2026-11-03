@@ -1,0 +1,308 @@
+{
+  "Alden's Tower": {
+    "file": "aldens_tower.png",
+    "median_hsv": [
+      102,
+      80,
+      48
+    ],
+    "hsv_lower": [
+      84,
+      25,
+      25
+    ],
+    "hsv_upper": [
+      120,
+      255,
+      255
+    ]
+  },
+  "Anointed One": {
+    "file": "anointed_one.png",
+    "median_hsv": [
+      106,
+      87,
+      49
+    ],
+    "hsv_lower": [
+      88,
+      25,
+      25
+    ],
+    "hsv_upper": [
+      124,
+      255,
+      255
+    ]
+  },
+  "Ashweaver Painmage": {
+    "file": "ashweaver_painmage.png",
+    "median_hsv": [
+      104,
+      97,
+      54
+    ],
+    "hsv_lower": [
+      86,
+      32,
+      25
+    ],
+    "hsv_upper": [
+      122,
+      255,
+      255
+    ]
+  },
+  "Devastator": {
+    "file": "devastator.png",
+    "median_hsv": [
+      105,
+      126,
+      60
+    ],
+    "hsv_lower": [
+      87,
+      61,
+      25
+    ],
+    "hsv_upper": [
+      123,
+      255,
+      255
+    ]
+  },
+  "Franklin and the Probe-Boys": {
+    "file": "franklin_and_the_probe_boys.png",
+    "median_hsv": [
+      112,
+      66,
+      206
+    ],
+    "hsv_lower": [
+      94,
+      25,
+      141
+    ],
+    "hsv_upper": [
+      130,
+      255,
+      255
+    ]
+  },
+  "Hyperwitch": {
+    "file": "hyperwitch.png",
+    "median_hsv": [
+      165,
+      149,
+      157
+    ],
+    "hsv_lower": [
+      147,
+      84,
+      92
+    ],
+    "hsv_upper": [
+      180,
+      255,
+      255
+    ]
+  },
+  "Janky James": {
+    "file": "janky_james.png",
+    "median_hsv": [
+      13,
+      65,
+      55
+    ],
+    "hsv_lower": [
+      0,
+      25,
+      25
+    ],
+    "hsv_upper": [
+      31,
+      255,
+      255
+    ]
+  },
+  "Kyarma": {
+    "file": "kyarma.png",
+    "median_hsv": [
+      19,
+      82,
+      150
+    ],
+    "hsv_lower": [
+      1,
+      25,
+      85
+    ],
+    "hsv_upper": [
+      37,
+      255,
+      255
+    ]
+  },
+  "Llin": {
+    "file": "llin.png",
+    "median_hsv": [
+      106,
+      117,
+      65
+    ],
+    "hsv_lower": [
+      88,
+      52,
+      25
+    ],
+    "hsv_upper": [
+      124,
+      255,
+      255
+    ]
+  },
+  "Nil": {
+    "file": "nil.png",
+    "median_hsv": [
+      25,
+      44,
+      189
+    ],
+    "hsv_lower": [
+      7,
+      25,
+      124
+    ],
+    "hsv_upper": [
+      43,
+      255,
+      255
+    ]
+  },
+  "Plum-Plum the Imp": {
+    "file": "plum_plum_the_imp.png",
+    "median_hsv": [
+      154,
+      87,
+      208
+    ],
+    "hsv_lower": [
+      136,
+      25,
+      143
+    ],
+    "hsv_upper": [
+      172,
+      255,
+      255
+    ]
+  },
+  "Polanius": {
+    "file": "polanius.png",
+    "median_hsv": [
+      150,
+      136,
+      74
+    ],
+    "hsv_lower": [
+      132,
+      71,
+      25
+    ],
+    "hsv_upper": [
+      168,
+      255,
+      255
+    ]
+  },
+  "Shootman": {
+    "file": "shootman.png",
+    "median_hsv": [
+      176,
+      119,
+      157
+    ],
+    "hsv_lower": [
+      158,
+      54,
+      92
+    ],
+    "hsv_upper": [
+      180,
+      255,
+      255
+    ]
+  },
+  "The Pumpkin King": {
+    "file": "the_pumpkin_king.png",
+    "median_hsv": [
+      18,
+      71,
+      153
+    ],
+    "hsv_lower": [
+      0,
+      25,
+      88
+    ],
+    "hsv_upper": [
+      36,
+      255,
+      255
+    ]
+  },
+  "Toxifer": {
+    "file": "toxifer.png",
+    "median_hsv": [
+      11,
+      200,
+      75
+    ],
+    "hsv_lower": [
+      0,
+      135,
+      25
+    ],
+    "hsv_upper": [
+      29,
+      255,
+      255
+    ]
+  },
+  "Ultiel": {
+    "file": "ultiel.png",
+    "median_hsv": [
+      109,
+      66,
+      133
+    ],
+    "hsv_lower": [
+      91,
+      25,
+      68
+    ],
+    "hsv_upper": [
+      127,
+      255,
+      255
+    ]
+  },
+  "Ultima": {
+    "file": "ultima.png",
+    "median_hsv": [
+      0,
+      0,
+      193
+    ],
+    "hsv_lower": [
+      0,
+      25,
+      128
+    ],
+    "hsv_upper": [
+      18,
+      255,
+      255
+    ]
+  }
+}
